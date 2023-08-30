@@ -1,0 +1,34 @@
+Rosa mais escuro
+#B4123B
+
+Rosa Intermediário
+#C71340
+
+Rosa Terciário
+#48474C
+
+Cinza Primário
+#18191D
+
+Cinza Secundário
+#48474C
+
+Cinza Terciário
+#8C897A
+
+POSSIBLE API BYPASS? LOL
+https://developer.spotify.com/callback/#access_token=BQCLOQVd4x7H89qd1W_ukeJeHWkjtDs1NgZmvDqcWk88OTTWkgo8S9orkcz1YJ2ft86cTsFHyIzJ0Exwrw_GUKVuUiNlZGZIG7AgZxYWqAnKMD1QTeSz1fVGsqu1fwbcX_yU1PHqNwzZ8mJOnJwVP2Id6CjStVbjhG01ILz_uxfOPg&token_type=Bearer&expires_in=3600&state=u134vg
+
+ChatGpt secret key
+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
+
+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
+
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+     "model": "gpt-3.5-turbo",
+     "messages": [{"role": "user", "content": "Say this is a test!"}],
+     "temperature": 0.7
+   }'
