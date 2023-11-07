@@ -26,6 +26,8 @@ var WE_visualizer = (function($, createjs) {
     var offsetX;
     var offsetY;
 
+    //Here put your id, secret and accessToken to conect to the spotify API. you'll need a uri to redirect for the API too,
+    //I simply used a blank page on heroku.
     var accessToken = '';
     var client_id = '';
     var client_secret = '';
